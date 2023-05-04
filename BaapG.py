@@ -69,13 +69,16 @@ def checkImport(module):
         exec(f"import {module}")
     except Exception:
         return False
-    return True
+    return True 
+
+
 def chekPacakage(pacakage):
     from shutil import which 
     if which(pacakage) is None:
         return False
     else:
         return True
+
 def getArgs(test_args,type=""):
     args = sys.argv
     if type == str or type==None:
@@ -104,9 +107,10 @@ def getArgs(test_args,type=""):
             return True 
         else:
             return False
+
 def printBox(string,col1,col2):
     a = len(string)
-    return (f'{col1}╔═{(a+1)*"═"}═╗\n║ {col2+string} {col1}║\n╚═{(a+1)*"═"}═╝')
+    return (f'{col1}╔═{(a+1)*"═"}═╗\n║ {col2+string} {col1} ║\n╚═{(a+1)*"═"}═╝')
 
 def error(string,exit=True):
     if exit is None or exit is False:
@@ -434,7 +438,7 @@ def main(a):
 def res():
 	r=input(f"{Y}Do you want to restart [y/n] = ")
 	if r =='y':
-		main()
+		main(False)
 	else:
 		print()
 		aPrint(f"Follow on Ig : {W}@____",time_test=0.15)
