@@ -213,14 +213,9 @@ lic = """
 """
 text = ''
 logo = f"""{Style.BRIGHT+text}
-{R}╭━━╮╱╱╱╱╱╱╱╱╱╭━━━╮ ╭━━━╮╭╮╱╭╮╱╱╱╱╱╱╭╮
-{R}┃╭╮┃╱╱╱╱╱╱╱╱╱┃╭━╮┃ ┃╭━╮┣╯╰┳╯╰╮╱╱╱╱╱┃┃
-{W}┃╰╯╰┳━━┳━━┳━━┫┃╱╰╯ ┃┃╱┃┣╮╭┻╮╭╋━━┳━━┫┃╭╮
-{W}┃╭━╮┃╭╮┃╭╮┃╭╮┃┃╭━╮ ┃╰━╯┃┃┃╱┃┃┃╭╮┃╭━┫╰╯╯
-{G}┃╰━╯┃╭╮┃╭╮┃╰╯┃╰┻━┃ ┃╭━╮┃┃╰╮┃╰┫╭╮┃╰━┫╭╮╮
-{G}╰━━━┻╯╰┻╯╰┫╭━┻━━━╯ ╰╯╱╰╯╰━╯╰━┻╯╰┻━━┻╯╰╯
-╱╱╱╱╱╱╱╱╱╱┃┃ {C}Author : {Y}BaapG Krishna {Y}Rajput
-╱╱╱╱╱╱╱╱╱╱╰╯ {C}Coder  : {Y}Ansh Dadwal
+{G} ---------------------------
+╱╱╱╱╱╱╱╱╱╱┃┃ {C}Author : {Y}God {Y}ZADKIEL
+╱╱╱╱╱╱╱╱╱╱╰╯ {C}Coder  : {Y}ZADKIEL
 {C}             Version : {G}{version}
  """
 
@@ -393,7 +388,7 @@ def main(a):
     print(printBox(f"⚡ This tool is only for Educational Purposes !",col1=G,col2=Y))
 
     print(f"\n{G}Choose Any Option\n")
-    text = (f"""{G}[{W}${G}]{R} BAAPG ATTACK ☣️ {W}>>>{G}\n[{W}1{G}]{Y} SMS ATTACK {W}>>>\n{G}[{W}2{G}]{Y} CALL ATTACK {W}>>>\n{G}[{W}3{G}]{Y} MAIL BOMBER\n{W}{G}[{W}4{G}]{Y} WHATSAPP BOMBER{W} >>>\n{G}[{W}5{G}]{Y} ABOUT {W}>>>\n{G}[{W}6{G}]{Y} EXIT {W}>>>\n{G}[{W}>{G}]{Y} UPDATE {W}>>>\n""")
+    text = (f"""{G}[{W}${G}]{R} God ☣️ {W}>>>{G}\n[{W}1{G}]{Y} SMS ATTACK {W}>>>\n{G}[{W}2{G}]{Y} CALL ATTACK {W}>>>\n{G}[{W}3{G}]{Y} MAIL BOMBER\n{W}{G}[{W}4{G}]{Y} WHATSAPP BOMBER{W} >>>\n{G}[{W}5{G}]{Y} ABOUT {W}>>>\n{G}[{W}6{G}]{Y} EXIT {W}>>>\n{G}[{W}>{G}]{Y} UPDATE {W}>>>\n""")
     print(text)
     a = input(f"{R} >>> {G}")
     if a == '$':
